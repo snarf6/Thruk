@@ -103,7 +103,7 @@ install: build
 	mv $(CURDIR)/debian/thruk/usr/share/thruk/support/thruk.init $(CURDIR)/debian/thruk/etc/init.d/thruk
 	mkdir -p $(CURDIR)/debian/thruk/usr/share/doc/thruk
 	mv $(CURDIR)/debian/thruk/usr/share/thruk/debian/copyright $(CURDIR)/debian/thruk/usr/share/doc/thruk/copyright
-	mv $(CURDIR)/debian/thruk/usr/share/thruk/local-lib $(CURDIR)/debian/thruk/usr/lib/thruk/perl5
+#	mv $(CURDIR)/debian/thruk/usr/share/thruk/local-lib $(CURDIR)/debian/thruk/usr/lib/thruk/perl5
 	mv $(CURDIR)/debian/thruk/usr/share/thruk/script/thruk $(CURDIR)/debian/thruk/usr/bin/thruk
 	rm -rf $(CURDIR)/debian/thruk/usr/share/thruk/support
 	rm -rf $(CURDIR)/debian/thruk/usr/share/thruk/debian
