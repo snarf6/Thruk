@@ -1,14 +1,14 @@
-Source: thruk
+Source: thruk-snarf
 Section: net
 Priority: extra
-Maintainer: Sven Nierlein <sven.nierlein@consol.de>
+Maintainer: Francois PONSARD <francois.ponsard@iguanesolutions.com>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 Homepage: http://www.thruk.org
-Bugs: https://github.com/sni/Thruk/issues
-Vcs-Git: git://github.com/sni/Thruk.git
+Bugs: https://github.com/snarf6/Thruk/issues
+Vcs-Git: git://github.com/snarf6/Thruk.git
 
-Package: thruk
+Package: thruk-snarf
 Architecture: any
 Depends: ${shlibs:Depends}, ${perl:Depends}, cron, logrotate, liblocal-lib-perl
 Description: Monitoring Webinterface for Nagios/Icinga and Shinken
@@ -17,3 +17,4 @@ Description: Monitoring Webinterface for Nagios/Icinga and Shinken
  API. It is designed to be a 'dropin' replacement and covers almost
  all of the original features plus adds additional enhancements for
  large installations.
+ Forked from sni to test apache2 independant package

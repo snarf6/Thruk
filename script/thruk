@@ -1,5 +1,11 @@
 #!/usr/bin/perl
 
+BEGIN {
+    use lib '/usr/lib/thruk/perl5';
+    use lib '/usr/share/thruk/lib';
+    $ENV{'CATALYST_CONFIG'} = '/etc/thruk' unless defined $ENV{'CATALYST_CONFIG'};
+};
+
 use strict;
 use warnings;
 use Getopt::Long;

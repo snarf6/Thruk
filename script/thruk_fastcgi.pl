@@ -3,6 +3,9 @@
 use strict;
 use warnings;
 
+use lib '/usr/lib/thruk/perl5';
+use lib '/usr/share/thruk/lib';
+
 use Catalyst::ScriptRunner;
 $ENV{'THRUK_SRC'} = 'FastCGI';
 Catalyst::ScriptRunner->run('Thruk', 'FastCGI');

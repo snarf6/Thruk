@@ -56,6 +56,7 @@ our $VERSION = '1.31';
 ###################################################
 # Configure the application.
 #
+__PACKAGE__->config->{home} = "/usr/share/thruk";
 # Note that settings in thruk.conf (or other external
 # configuration file that you set up manually) take precedence
 # over this when using ConfigLoader. Thus configuration

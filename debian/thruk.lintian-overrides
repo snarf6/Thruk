@@ -51,3 +51,5 @@ thruk: binary-or-shlib-defines-rpath usr/lib/thruk/perl5/x86_64-linux-gnu-thread
 thruk: binary-or-shlib-defines-rpath usr/lib/thruk/perl5/x86_64-linux-gnu-thread-multi/auto/GD/GD.so /usr/lib
 thruk: binary-or-shlib-defines-rpath usr/lib/thruk/perl5/x86_64-linux-gnu-thread-multi/auto/Time/HiRes/HiRes.so /lib/x86_64-linux-gnu
 thruk: binary-or-shlib-defines-rpath usr/lib/thruk/perl5/x86_64-linux-gnu-thread-multi/auto/XML/Parser/Expat/Expat.so /lib/x86_64-linux-gnu
+thruk: embedded-library usr/lib/thruk/perl5/i486-linux-gnu-thread-multi/auto/Compress/Raw/Zlib/Zlib.so: zlib
+thruk: embedded-zlib ./usr/lib/thruk/perl5/i486-linux-gnu-thread-multi/auto/Compress/Raw/Zlib/Zlib.so
